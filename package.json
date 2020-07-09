@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "postinstall": "yarn build"
+  },
+  "name": "typescript-library-starter",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/levabala/typescript-library-starter.git",
+  "author": "levabala <levabala@ya.ru>",
+  "license": "MIT"
+}
