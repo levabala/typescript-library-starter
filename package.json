@@ -11,6 +11,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
+    "types": "tsc  --noEmit",
+    "types:watch": "tsc -w --noEmit",
     "postinstall": "yarn build"
   },
   "name": "typescript-library-starter",
